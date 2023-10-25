@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casuais</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="2.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</head>
+<body>
+<header>
+<div class="logo">
+    <a href="index.html" target="_self">
+        <picture>
+            <source media="(max-width: 420px)" srcset="imagens/logo/logo3.png">
+            <source media="(max-width: 720px)" srcset="imagens/logo/logo3.png">
+            <img src="imagens/logo/logo2.png" alt="steaklogo">
+        </picture>
+    </a>
+</div>
+
+<div class="usu">
+    <i class="material-icons">mark_email_unread</i>
+    <i class="material-icons">notifications</i>
+    <i class="material-icons">mark_email_unread</i>
+    <abbr title="Perfil do Usuario">
+        <a href="perfil.html" target="_blank" >
+            <picture>
+                <source media="(max-width: 720px)" srcset="imagens/perfil/perfil3.jpg">
+                <source media="(max-width: 1440px)" srcset="imagens/perfil/perfil3.jpg">
+                <img src="imagens/perfil/perfil3.jpg"  alt="Foto de Perfil">
+            </picture>
+        </a>
+    </div>
+</abbr>
+    </header>
+<div class="nav">
+    
+    <a href="#categorias" class="categorias" target="_self" 
+    onclick="catshow()">
+    <i class="material-icons">menu</i> categorias</a>
+    <a href="arquivos.html" target="_self"><i class="material-icons">folder_open</i> Documentação</a>
+    <a href="forum.html">
+    <i class="material-icons">forum</i> Forum</a>
+    </div>
+    <menu id="cats">
+        <ul>
+            <li><a href="casual.html">Casual</a></li>
+            <li><a href="aventura.html">Aventura</a></li>
+            <li><a href="acao.html">Acão</a></li>
+        </ul>
+    </menu>
+<main>
+<div class="jogos">
+<a href="jogos/topdshooter/index.html" target="_blank"><img src="imagens/aba1/shooterp.png" alt=""><p>TopDShooter</p></a>
+<a href="jogos/missãosalvação/index.html" target="_blank"><img src="imagens/aba1/ccap.png" alt=""><p>C.C.A Missão Salvação</p></a>
+</div>
+
+
+
+</main>
+
+<script>
+function catshow(){
+    if(cats.style.display == 'block' ){
+        cats.style.display = 'none'
+    }
+    else{
+            cats.style.display = 'block'
+        }
+    
+    
+}
+</script>
+</body>
+</html>

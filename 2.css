@@ -1,0 +1,74 @@
+
+@charset "UTF=8";
+@font-face {
+   font-family: staypixel;
+   src: url(fonts/staypixel.ttf);
+   font-weight: normal;
+}
+@font-face {
+   font-family: kanit;
+   src: url(fonts/Kanit.ttf);
+   font-weight: bolder;
+}
+@font-face {
+   font-family: oswald;
+   src: url(fonts/oswald.ttf);
+   font-weight: normal;
+}
+@font-face {
+   font-family: squaredance;
+   src: url(fonts/squaredance.ttf);
+   font-weight: normal;
+}
+@font-face {
+   font-family: sourcecode;
+   src: url(fonts/sourcecode.ttf);
+   font-weight: normal;
+}
+:root{
+   --corheader: #FF9902;
+   --corlinkativo: #acacac;
+   --cormain1: #3A7AAA;
+   --cormain2: #6affb9;
+   --corfooter: #FF9902;
+   --fonteheader: 'staypixel', cursive;
+   --fontemaintitulo: 'kanit', sans-serif;
+   --fontemaintexto: 'oswald', sans-serif;
+   --fontemainlink: 'squaredance', cursive;
+   --fontemainlink2: 'staypixel', cursive;
+   --fontefooter: 'sourcecode', monospace;
+}
+
+main{
+text-align: center;
+min-height: 100px;
+}
+
+.jogos{
+    max-width: 85%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    display: inline-flex;
+}
+
+.jogos a {
+    text-decoration: none;
+    font-family: var(--fontemaintexto);
+    color: antiquewhite;
+    
+}
+
+.jogos a img{
+    max-width: 300px;
+    padding-left: 40px;
+    padding-right: 40px;
+    
+}
+
+.jogos a p{
+    margin: 0;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+
+}
